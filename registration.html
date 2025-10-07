@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organ Donation Registration</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Organ Donation Registration</h1>
+    <p style="font-family: Arial, sans-serif;">Please fill out the form below to register as an organ donor:</p>
+    <form action="submit_donation.php" method="post">
+        <label for="name" style="font-family: Arial, sans-serif;">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email" style="font-family: Arial, sans-serif;">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="age" style="font-family: Arial, sans-serif;">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+        <input type="submit" value="Register" style="font-family: Arial, sans-serif;">
+    </form>
+</body>
+</html>
