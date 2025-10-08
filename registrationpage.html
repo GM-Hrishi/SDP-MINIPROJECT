@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organ Donation Registration</title>
 </head>
-<body>
-    <h1 style="text-align: center;">Organ Donation Registration</h1>
-    <p style="font-family: Arial, sans-serif;">Please fill out the form below to register as an organ donor:</p>
+<body  style="background-image: url(https://imgs.search.brave.com/Aj8sT8QL8t022fTqfcFlSZkgvL4Jy6VPadt2MaxQPcw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9yZWdp/c3RyYXRpb24taGFu/ZC1wcmVzc2luZy1i/dXR0b24taW50ZXJm/YWNlLWJsdWUtYmFj/a2dyb3VuZC00OTQx/MDI5Ny5qcGc);background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;">
+    <h1 style="text-align: center;background-color: white;">Organ Donation Registration</h1>
+    <p style="font-family: Arial, sans-serif;background-color: white;display: inline;">Please fill out the form below to register as an organ donor:</p><br>
     <form action="submit_donation.php" method="post">
-        <label for="name" style="font-family: Arial, sans-serif;">Name:</label><br>
+        <label for="name" style="font-family: Arial, sans-serif;background-color: white;display: inline;">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
-        <label for="email" style="font-family: Arial, sans-serif;">Email:</label><br>
+        <label for="email" style="font-family: Arial, sans-serif;background-color: white;display: inline;">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
-        <label for="age" style="font-family: Arial, sans-serif;">Age:</label><br>
+        <label for="age" style="font-family: Arial, sans-serif;background-color: white;display: inline;">Age:</label><br>
         <input type="number" id="age" name="age" required><br><br>
         <input type="submit" value="Register" style="font-family: Arial, sans-serif;">
     </form>
